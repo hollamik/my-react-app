@@ -1,0 +1,123 @@
+ body {
+    margin: 100px 50px 50px 50px;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', sans-serif;
+    box-sizing: border-box;
+    border: 3px solid rgb(254, 253, 253);
+    border-radius: 1%;
+    background-color: #700142;
+}
+.container {
+    width: auto;
+    min-height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    color: #e3930a;
+    background-color: #1D1B1B;
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.726);
+    padding: 10px;
+}
+h1{
+    background-color: #f78181;
+    text-align: center;
+    letter-spacing:2px;
+    margin: 15px -3px;
+    color:#1D1B1B;
+    cursor:default;
+}
+p{
+    text-align: center;
+    letter-spacing:2px;
+    margin: 0px -10px;
+    color:#0b0202;
+    cursor:default;
+    margin: 230px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+input {
+    background-color: #e7dfe5;
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(3, 0, 0);
+}
+
+input:focus{
+    transition-duration: 0.3s;
+    outline: #F9D342;
+}
+.wrapper{
+    background-color: rgb(226, 83, 21);
+}
+
+.btn {
+    background: #e46150;
+    padding: 10px;
+    margin-left: 10px;
+    width: auto;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;;
+}
+
+.btn:hover{
+    transition-duration: 0.4s;
+    background-color:#e46150;
+    color: white;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    width: auto;
+    font-size: 2rem;
+    cursor:default;
+}
+
+li > p {
+    display: inline;
+    margin-right: 15px;
+    color: rgb(242, 185, 13);
+}
+
+li > p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    
+    .card{
+        width:auto;
+    }
+
+    input{
+        width:auto;
+        height:auto;
+    }
+
+    .btn{
+        width:auto;
+    }
+
+    
+}
